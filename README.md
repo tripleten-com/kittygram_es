@@ -1,6 +1,6 @@
-### How to run the project:
+### Cómo ejecutar el proyecto:
 
-Clone the repository and open it in the command-line interface:
+Clona el repositorio y ábrelo en la interfaz de la línea de comandos: 
 
 ```
 git clone https://github.com/practicum-com/kittygram-en.git
@@ -10,25 +10,25 @@ git clone https://github.com/practicum-com/kittygram-en.git
 cd kittygram-en
 ```
 
-Create and activate a virtual environment:
+Crea y activa un entorno virtual:
 
 ```
 python3 -m venv env
 ```
 
-* In Linux/MacOS
+* Para Linux/MacOS
 
     ```
     source env/bin/activate
     ```
 
-* In Windows
+* Para Windows
 
     ```
     source env/scripts/activate
     ```
 
-Install the dependencies from the requirements.txt file:
+Instala las dependencias del archivo requirements.txt:
 
 ```
 python3 -m pip install --upgrade pip
@@ -38,13 +38,13 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Run migrations:
+Ejecuta las migraciones:
 
 ```
 python3 manage.py migrate
 ```
 
-Run the project:
+Ejecuta el proyecto:
 
 ```
 python3 manage.py runserver
