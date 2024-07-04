@@ -3,11 +3,11 @@
 Clona el repositorio y ábrelo en la interfaz de la línea de comandos: 
 
 ```
-git clone https://github.com/practicum-com/kittygram-en.git
+git clone https://github.com/tripleten-com/kittygram_es.git
 ```
 
 ```
-cd kittygram-en
+cd kittygram_es
 ```
 
 Crea y activa un entorno virtual:
